@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:ROOT",
+      "color": {
+        "a": 1,
+        "rgb": 7077830
+      }
+    },
+    {
+      "query": "path:\"Cyber Security\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16735324
+      }
+    },
+    {
+      "query": "path:\"Programming languages/Golang\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3059711
+      }
+    },
+    {
+      "query": "path:\"Programming languages\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14082125
+      }
+    },
+    {
+      "query": "path:Algorithm  ",
+      "color": {
+        "a": 1,
+        "rgb": 65344
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.01875,
+  "lineSizeMultiplier": 1.19739583333333,
+  "collapse-forces": false,
+  "centerStrength": 0.723958333333333,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 135,
+  "scale": 0.5995838000493168,
+  "close": true
+}
