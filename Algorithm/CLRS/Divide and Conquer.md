@@ -19,7 +19,7 @@ recurrence is an equation that describes a function in terms of its value on oth
 
 ## Algorithmic recurrences
 
-![[Algorithmic Recurrences.png]]
+![[algorithmicRecurrencesDefinition.png]]
 
 first property means there exist constants c1, c2 so that:
 

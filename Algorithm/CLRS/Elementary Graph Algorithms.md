@@ -93,6 +93,9 @@ for each vertex we have:
 
 >Because the procedure scans the adjacency list of each vertex only when the vertex is dequeued, it scans each adjacency list at most once. Since the sum of the lengths of all $|V|$ adjacency lists is $\large \Theta(E)$, the total time spent in scanning adjacency lists is $\large O(V + E)$. The overhead for initialization is $\large O(V)$, and thus the total running time of the BFS procedure is $\large O(V + E)$.
 
+So we can say:
+
+
 > Breadth-first search runs in time linear in the size of the adjacency-list representation of $G$ .
 
 #### Shortest Paths
@@ -103,7 +106,7 @@ for each vertex we have:
 
 #### Lemma 20.1
 Let $G = (V,E)$ be a directed or undirected graph, and let $\large s \in V$ be an arbitrary vertex. Then for any edge $\large(u,v)\in E$ : $$\large \delta(s,v) \leq \delta(s,u) + 1$$
-#### Proof
+##### Proof
 We have two cases:
 1. $\large u$ is reachable from $\large s$
 	  We absolutely have a path from s to v, so we can say the length of this path is greater equal than $\large \delta(s, v)$ . So the inequality holds. 
@@ -115,12 +118,12 @@ We have two cases:
 
 #### Lemma 20.2
 Let $\large G = (V, E)$ be a directed or undirected graph, and suppose that BFS is run on $G$ from a given source vertex $\large s \in V$. Then, for each vertex $\large v \in V$, the value $\large v.d$ computed by BFS satisfies $\large v.d \ge \delta(s, v)$ at all times, including at termination.
-#### Proof
+##### Proof
 The proof is by induction on the number of `ENQUEUE` operations. 
 The inductive hypothesis is that $\large v.d \geq \delta(s, v)$ for all $\large v \in V$ .
 **Induction**: 
 - Base case
-  The base is of the induction is the situation immediately after enqueuing $S$ in line 9 of BFS. The inductive hypothesis holds here because $\large s.d = 0 = \delta(s,s)$ and $\large v.d = \infty \geq \delta(s,v)$ for all $\large v \in V - \{s\}$ .
+  The base of the induction is the situation immediately after enqueuing $S$ in line 9 of BFS. The inductive hypothesis holds here because $\large s.d = 0 = \delta(s,s)$ and $\large v.d = \infty \geq \delta(s,v)$ for all $\large v \in V - \{s\}$ .
 - inductive step
   For the inductive step, consider a white vertex v that is discovered during the search from a vertex u. The inductive hypothesis implies that $\large u.d \geq \delta(s,u)$ . So according to the line 15 of BFS code and Lemma 20.1 we can say: $$
 	  \begin{align} 
@@ -139,7 +142,7 @@ Vertex $\large v$ is only enqueued once and i't won't be again, thus the value o
 #### Lemma 20.3
 Suppose that during the execution of BFS on a graph $\large G = (V, E)$, the queue Q contains the vertices $\large <v_1, v_2, \dots, v_r>$, where $\large v_1$ is the head of Q and $\large v_r$ is the tail.
 then we have $\quad \large v_r.d \leq v_1.d + 1 \quad and \quad v_i.d \leq v_{i+1}.d \quad for \quad i = 1,2,\ldots, r - 1$ .     
-#### Proof
+##### Proof
 The proof is by induction on the number of queue operations.
 - Base case
   Initially when the queue contains only $\large s$ the lemma trivially holds.
@@ -174,4 +177,13 @@ The proof is by induction on the number of queue operations.
   
   The remaining inequalities are unaffected.
 
+#### Corollary 20.4
+Suppose that vertices $\large v_i$ and $\large v_j$ are enqueued during the execution of BFS, and that $\large v_i$ is enqueued before $\large v_j$ . Then $\large v_i.d \leq v_j.d$ at the time that $\large v_j$ is enqueued.
+
+##### Proof
+From Lemma 20.3 .
+
+#### Theorem 20.5 (correctness of breadth-first search)
+Let $\large G = (V, E)$ be a directed or undirected graph, and suppose that BFS is run on G from a given source vertex $\large s \in V$ . Then during it's execution, BFS discovers every vertex $\large v \in V$ that is reachable from the source $\large s$, and upon termination, $\large v.d = \delta(s,v)$ for all $\large v \in V$. 
+>Moreover, for any vertex $\large v \neq s$ that is reachable from $\large s$, one of the shortest paths from $\large s$ to $\large v$ is a shortest path from $\large s$ to $\large v.\pi$ followed by the edge $\large (v.\pi, v)$ .
 
