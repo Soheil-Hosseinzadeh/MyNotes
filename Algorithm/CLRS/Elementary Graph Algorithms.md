@@ -98,6 +98,8 @@ So we can say:
 
 > Breadth-first search runs in time linear in the size of the adjacency-list representation of $G$ .
 
+![[Pasted image 20240903202215.png]]
+
 #### Shortest Paths
 - **Shortest-path distance** $\large \delta(s,v)$ : 
 	  The minimum number of edges in any path from vertex s to vertex v.
@@ -127,14 +129,14 @@ The inductive hypothesis is that $\large v.d \geq \delta(s, v)$ for all $\large 
 - inductive step
   For the inductive step, consider a white vertex v that is discovered during the search from a vertex u. The inductive hypothesis implies that $\large u.d \geq \delta(s,u)$ . So according to the line 15 of BFS code and Lemma 20.1 we can say: $$
 	  \begin{align} 
-	  \large v.d &= \large u.d + 1 \\
-	  &\geq \large \delta(s,u) + 1 \\
-	  &\geq \large \delta(s,v)
+	  \large v.d &= \large u.d + 1 \quad
+	  \geq \quad \delta(s,u) + 1  \quad
+	  \geq \quad \delta(s,v)
 	  \end{align}$$
+![[Drawing 2024-09-03 20.04.03.excalidraw.svg|650]]
 
 So, we proved that $\large v.d \geq \delta(s,v)$ .
 Vertex $\large v$ is only enqueued once and i't won't be again, thus the value of $\large v.d$ never changes again and the inductive hypothesis is maintained.
-
 
 
 > All times the d values of vertices in the queue either are all the same or form a sequence $\large <k, k, \dots, k, k+1, k+1, \dots, k+1>$ for some integer $\large k \geq 0$ . (It's our next Lemma 20.3)
@@ -165,15 +167,15 @@ The proof is by induction on the number of queue operations.
   Second the queue was not empty. In this case the procedure has most recently removed vertex $\large u$ , whose adjacency list is currently being scanned, from the queue $\large Q$ .
   Before removing $\large u$ we know that :
   $\large u = v_1 \quad u.d \leq v_2.d \quad v_r.d \leq u.d + 1$
-  After u is remove the vertex $\large v_2$ becomes the new head $\large v_1$ of the queue,
+  After u is removed the vertex $\large v_2$ becomes the new head $\large v_1$ of the queue,
   
-  So for proving $\large v_{r+1}.d = v.d \leq v_1.d$  we have :	  
-  $\large u.d \leq v_1.d \quad v_{r+1}.d = v.d = u.d + 1$
+  So for proving $\large v_{r+1}.d = v.d \leq v_1.d + 1$  we have :	  
+  $\large u.d \leq v_1.d \quad$ (add $+1$ to each side) 
   so we can say:
-  $\large v_{r+1}.d = v.d \leq v_1.d$ .
+  $\large u.d + 1 \leq v_1.d + 1 \quad \implies \quad v_{r+1}.d = v.d \leq v_1.d + 1$ .
 
   For proving $\large v_r.d \leq v_{r+1}.d$ we can say:
-  $\large v_r.d \leq u.d + 1 \quad and \quad u.d + 1 = v.d \quad so \quad v_r.d \leq v_d = v_{r+1}.d$ .
+  $\large v_r.d \leq u.d + 1 \quad and \quad u.d + 1 = v.d \quad so \quad v_r.d \leq v.d = v_{r+1}.d$ .
   
   The remaining inequalities are unaffected.
 
@@ -185,5 +187,30 @@ From Lemma 20.3 .
 
 #### Theorem 20.5 (correctness of breadth-first search)
 Let $\large G = (V, E)$ be a directed or undirected graph, and suppose that BFS is run on G from a given source vertex $\large s \in V$ . Then during it's execution, BFS discovers every vertex $\large v \in V$ that is reachable from the source $\large s$, and upon termination, $\large v.d = \delta(s,v)$ for all $\large v \in V$. 
+
 >Moreover, for any vertex $\large v \neq s$ that is reachable from $\large s$, one of the shortest paths from $\large s$ to $\large v$ is a shortest path from $\large s$ to $\large v.\pi$ followed by the edge $\large (v.\pi, v)$ .
+
+##### Proof (By contradiction)
+We want to prove : $$
+\large \forall v\in V : v.d = \delta(s,v)$$
+So the contradiction hypothesis would be:$$
+\large \exists v \in V : v.d \neq \delta(s,v)$$
+
+Assume for the purpose of contradiction we have some vertex like $\large v$ so that $\large v.d \neq \delta(s,v)$ .
+about vertex $\large v$ we have:
+- According to Lemma 20.2 $$\large v.d \geq \delta(s,v) \implies v.d > \delta(s,v)$$
+  So $\large v$ **must be reachable** from $\large s$, for otherwise we would have : $$\large \delta(s,v) = \infty \geq v.d$$
+- We cannot have $\large v = s$, because $\large s.d = 0 \quad and \quad \delta(s,s) = 0$
+
+Let $\large u$ be the vertex immediately preceding $\large v$  (since $\quad \large v \neq s \quad u$ must exist) on some shortest path from $\large s$ to $\large v$, so that :       $$\large \delta(s,v) = \delta(s,u) + 1 \qquad u.d=\delta(s,u)$$       
+putting these properties together gives: $$\large v.d > \delta(s,v) = \delta(s,u) + 1 = u.d + 1$$
+Now consider the time when BFS dequeues vertex $\large u$ from $\large Q$, at this time we have three cases for $\large v$ that all of them lead to a contradiction of  the above inequality.
+
+![[Drawing 2024-09-04 00.24.39.excalidraw.svg]]
+
+Thus we conclude that : $$
+\large \forall v \in V : v.d = \delta(s,v)$$
+Now we can say : $$
+\large v.\pi = u \implies v.d = u.d + 1   $$
+and, shortest path from $\large s$ to $\large v$, is shortest path from $\large s$ to $\large v.\pi$ + edge $\large (v.\pi, v)$ 
 

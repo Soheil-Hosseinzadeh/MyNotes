@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:Algorithm  ",
+      "query": "path:Algorithm",
       "color": {
         "a": 1,
         "rgb": 65344
@@ -53,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 135,
-  "scale": 0.8993757000739748,
+  "scale": 0.621144385623286,
   "close": true
 }

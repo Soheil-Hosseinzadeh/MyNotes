@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "02973f9b949cddf0",
+        "id": "f6b01e342d511ae0",
         "type": "tabs",
         "children": [
           {
-            "id": "74f9ab58d0e317f5",
+            "id": "b5797ee02d36d30e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51103591918945
+    "width": 376.51103591918945
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -95,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,35 +135,43 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "74f9ab58d0e317f5",
+  "active": "b5797ee02d36d30e",
   "lastOpenFiles": [
+    "Algorithm/CLRS/Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
+    "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.png",
+    "Algorithm/CLRS/pics/Pasted image 20240813233703.png",
+    "Algorithm/CLRS/pics/Pasted image 20240814131348.png",
+    "Algorithm/CLRS/pics/Pasted image 20240903202215.png",
+    "Algorithm/CLRS/pics/Drawing 2024-09-04 00.24.39.excalidraw.svg",
+    "Algorithm/CLRS/pics/Pasted image 20240803172255.png",
+    "Algorithm/CLRS/pics/Drawing 2024-09-04 00.24.39.excalidraw.svg",
+    "Algorithm/CLRS/pics/Drawing 2024-09-03 20.04.03.excalidraw.svg",
+    "Algorithm/CLRS/Greedy Algorithms.md",
+    "Pasted image 20240904003658.png",
+    "Pasted image 20240904003647.png",
+    "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
+    "Algorithm/CLRS/Excalidraw",
+    "Excalidraw",
+    "Excalidraw/Drawing 2024-09-03 20.00.19.excalidraw.md",
+    "Excalidraw",
     "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
     "Cyber Security/Linux/Linux.md",
-    "Algorithm/CLRS/Elementary Graph Algorithms.md",
-    "Algorithm/CLRS/Greedy Algorithms.md",
     "Algorithm/CLRS/Divide and Conquer.md",
-    "Algorithm/CLRS/pics/algorithmicRecurrencesDefinition.png",
     "README.md",
-    "Algorithm/CLRS/pics/Pasted image 20240814131348.png",
-    "Algorithm/CLRS/pics/Pasted image 20240813233703.png",
-    "Algorithm/CLRS/pics/Pasted image 20240813232609.png",
-    "Algorithm/CLRS/pics/Pasted image 20240813160838.png",
-    "Algorithm/CLRS/pics/Pasted image 20240812233313.png",
-    "Algorithm/CLRS/pics/Pasted image 20240812233259.png",
     "Algorithm/CLRS/CLRS.md",
     "Cyber Security/Linux/Lpic 1.md",
-    "Algorithm/CLRS/pics/Pasted image 20240807135858.png",
     "ROOT.md",
     "Algorithm/Algorithm.md",
     "Programming languages/Golang/Go generics.md",
     "Programming languages/Golang/basics.md",
     "Programming languages/programming languages.md",
     "Cyber Security/Cyber Security.md",
-    "Algorithm/CLRS/pics/Pasted image 20240803220638.png",
-    "Algorithm/CLRS/pics/Pasted image 20240803220110.png",
     "Software Engineering notes.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
@@ -187,13 +187,6 @@
     "سلام.md",
     "2024-04-02.md",
     "Cyber Security/CompTIA A+",
-    "Cyber Security/Untitled.md",
-    "2024-03-23.md",
-    "Programming languages/Golang/golang.md",
-    "Programming languages/Golang/Goroutines.md",
-    "Cyber Security",
-    "Programming languages/Golang",
-    "Programming languages",
-    "Linux/Lpic1-v500/101Exam"
+    "Cyber Security"
   ]
 }
