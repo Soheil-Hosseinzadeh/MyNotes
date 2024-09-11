@@ -106,7 +106,7 @@ So we can say:
 - **Shortest path** :
 	  A path of length $\large \delta(s,v)$ from s to v.
 
-#### Lemma 20.1
+##### Lemma 20.1
 Let $G = (V,E)$ be a directed or undirected graph, and let $\large s \in V$ be an arbitrary vertex. Then for any edge $\large(u,v)\in E$ : $$\large \delta(s,v) \leq \delta(s,u) + 1$$
 ##### Proof
 We have two cases:
@@ -118,7 +118,7 @@ We have two cases:
 
 
 
-#### Lemma 20.2
+##### Lemma 20.2
 Let $\large G = (V, E)$ be a directed or undirected graph, and suppose that BFS is run on $G$ from a given source vertex $\large s \in V$. Then, for each vertex $\large v \in V$, the value $\large v.d$ computed by BFS satisfies $\large v.d \ge \delta(s, v)$ at all times, including at termination.
 ##### Proof
 The proof is by induction on the number of `ENQUEUE` operations. 
@@ -141,7 +141,7 @@ Vertex $\large v$ is only enqueued once and i't won't be again, thus the value o
 
 > All times the d values of vertices in the queue either are all the same or form a sequence $\large <k, k, \dots, k, k+1, k+1, \dots, k+1>$ for some integer $\large k \geq 0$ . (It's our next Lemma 20.3)
 
-#### Lemma 20.3
+##### Lemma 20.3
 Suppose that during the execution of BFS on a graph $\large G = (V, E)$, the queue Q contains the vertices $\large <v_1, v_2, \dots, v_r>$, where $\large v_1$ is the head of Q and $\large v_r$ is the tail.
 then we have $\quad \large v_r.d \leq v_1.d + 1 \quad and \quad v_i.d \leq v_{i+1}.d \quad for \quad i = 1,2,\ldots, r - 1$ .     
 ##### Proof
@@ -172,14 +172,14 @@ The proof is by induction on the number of queue operations.
   So for proving $\large v_{r+1}.d = v.d \leq v_1.d + 1$  we have :	  
   $\large u.d \leq v_1.d \quad$ (add $+1$ to each side) 
   so we can say:
-  $\large u.d + 1 \leq v_1.d + 1 \quad \implies \quad v_{r+1}.d = v.d \leq v_1.d + 1$ .
+  $\large u.d + 1 \leq v_1.d + 1 \quad \implies \quad v_{r+1}.d = v.d \leq v_1.d + 1$ 
 
   For proving $\large v_r.d \leq v_{r+1}.d$ we can say:
-  $\large v_r.d \leq u.d + 1 \quad and \quad u.d + 1 = v.d \quad so \quad v_r.d \leq v.d = v_{r+1}.d$ .
+  $\large v_r.d \leq u.d + 1 \quad and \quad u.d + 1 = v.d \quad so \quad v_r.d \leq v.d = v_{r+1}.d$ 
   
   The remaining inequalities are unaffected.
 
-#### Corollary 20.4
+##### Corollary 20.4
 Suppose that vertices $\large v_i$ and $\large v_j$ are enqueued during the execution of BFS, and that $\large v_i$ is enqueued before $\large v_j$ . Then $\large v_i.d \leq v_j.d$ at the time that $\large v_j$ is enqueued.
 
 ##### Proof
@@ -213,4 +213,34 @@ Thus we conclude that : $$
 Now we can say : $$
 \large v.\pi = u \implies v.d = u.d + 1   $$
 and, shortest path from $\large s$ to $\large v$, is shortest path from $\large s$ to $\large v.\pi$ + edge $\large (v.\pi, v)$ 
+
+#### Breadth-first trees
+
+The blue edges show the breadth-first tree built by the BFS procedure as it searches the graph.
+
+> The tree corresponds to the $\large \pi$ attributes.
+
+![[Pasted image 20240813233703.png]]
+
+We define the **predecessor sub-graph** of $\large G$ as $\large G_\pi = (V_\pi,E_\pi)$, where $$\large V_\pi = \{v \in V : v.\pi \neq NIL\} \space \cup \space \{s\}$$ and $$\large E_\pi = \{(v.\pi,v): v \in V_\pi - \{s\}\}$$
+$\large G_\pi$ is a breadth-first tree so that 
+$\large V_\pi$ : Consists of the vertices reachable from $\large s$
+$\large E_\pi$ : Consists of the tree edges
+
+> For all $\large v \in V_\pi$, contains a unique simple path from $\large s$ to $\large v$ that is also shortest path.
+
+> In a breadth-first tree we have : $\large |E_\pi| = |V_\pi| - 1$ 
+
+##### Lemma 20.6
+When applied to a directed or undirected graph $\large G = (V,E)$, procedure BFS constructs $\large \pi$ so that the predecessor subgraph $\large G_\pi = (V_\pi, E_\pi)$ is a breadth-first tree.
+
+##### Proof
+Line 16 of BFS sets $\large v.\pi = u$ if and only if $\large (u,v) \in E$ and $\large \delta(s,v) < \infty$ and thus $\large V_\pi$ consists of the vertices in $\large V$ reachable from $\large s$ .
+Since the predecessor subgraph forms a tree, be Theorem B.2, it contains a unique simple path from $\large s$ to each vertex in $\large V_\pi$ .
+Applying Theorem 20.5 inductively yields that every such path is a shortest path in $\large G$ .
+
+
+![[Pasted image 20240911211110.png]]
+
+> This procedure runs in time linear in the number of vertices in the path printed.
 
