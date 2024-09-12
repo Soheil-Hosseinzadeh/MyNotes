@@ -244,3 +244,26 @@ Applying Theorem 20.5 inductively yields that every such path is a shortest path
 
 > This procedure runs in time linear in the number of vertices in the path printed.
 
+---
+## 20.3   Depth-first search
+
+Depth-first search searches "deeper" in the graph whenever possible.
+
+Let's consider vertex $\large v$ as the most recently discovered vertex.
+DFS would deeply explore all the edges of vertex $\large v$ (It also explores all the edges of the connected vertices to vertex $\large v$ until there would be no edge at the end, and then starts to backtrack) .
+Once all of $\large v$ 's edges have been explored, the search **backtracks** to explore edges leaving the vertex from which $\large v$ was discovered.
+This process continues until all vertices that are reachable from the original source have been discovered.
+
+> If any undiscovered vertices remain, then depth-first search selects one of them as a new source, and repeats the search process from that new source.
+
+> The algorithm repeats this entire process until it has discovered every vertex.
+
+> Unlike breadth-first search, whose predecessor subgraph forms a tree, DFS search produces a predecessor subgraph that might contain several trees, because the search may repeat from multiple sources.
+
+##### Predecessor subgraph of a DFS search
+- It always includes all vertices
+- It accounts for mutiple sources
+- It forms a **depth-first forest** comprising several **depth-first trees**
+- The predecessor subgraph is $\large G_\pi = (V, E_\pi)$ wehre : $$\large E_\pi = \{(v.\pi,v) : v\in V \quad and \quad v.\pi \neq NIL \space \}$$
+- The edges in $\large E_\pi$ are tree edges.
+- 
