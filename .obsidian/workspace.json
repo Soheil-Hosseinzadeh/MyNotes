@@ -18,6 +18,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b2123416024aec0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5eb5414920e60279",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "f3e3ed7e387cc163",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -149,11 +181,13 @@
   },
   "active": "b5797ee02d36d30e",
   "lastOpenFiles": [
-    "Algorithm/CLRS/Divide and Conquer.md",
+    "Algorithm/CLRS/CLRS.md",
     "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "Algorithm/CLRS/pics/Pasted image 20240915022950.png",
+    "Algorithm/CLRS/Divide and Conquer.md",
+    "Algorithm/CLRS/Greedy Algorithms.md",
     "Algorithm/CLRS/pics/Pasted image 20240911211110.png",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
-    "Algorithm/CLRS/CLRS.md",
     "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Algorithm/CLRS/Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.png",
@@ -164,8 +198,6 @@
     "Algorithm/CLRS/pics/Pasted image 20240803172255.png",
     "Algorithm/CLRS/pics/Drawing 2024-09-04 00.24.39.excalidraw.svg",
     "Algorithm/CLRS/pics/Drawing 2024-09-03 20.04.03.excalidraw.svg",
-    "Algorithm/CLRS/Greedy Algorithms.md",
-    "Pasted image 20240904003658.png",
     "Algorithm/CLRS/Excalidraw",
     "Excalidraw",
     "Excalidraw/Drawing 2024-09-03 20.00.19.excalidraw.md",

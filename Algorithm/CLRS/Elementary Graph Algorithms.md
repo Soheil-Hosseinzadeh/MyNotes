@@ -22,7 +22,7 @@ Two types of graphs:
 
 ![[Pasted image 20240807135858.png]]
 
-#### Adjacency list representation
+### Adjacency list representation
 consider a graph $G = (V, E)$ :
 
 > If $G$ is a directed graph, the sum of the lenghts of all the adjacency lists is $|E|$
@@ -32,10 +32,16 @@ consider a graph $G = (V, E)$ :
 > For both directed and undirected graphs, the adjacency list representation requires $\large \Theta ( V + E)$ memory, finding each node in the graph also takes $\large \Theta ( V + E)$ .
 > If $|E| = \Omega(V)$ , we can say that finding each edge takes $\large \Theta(E)$ time.
 
-> A potential disadvantage of the adjacency-list representation is that it doesn't provide a quick way to determine whether a given edge is present in the graph, we actually have to search for $\large v$ in the adjacency list $\large Adj[u]$ . 
+##### Adjacency list disadvantage
+> A potential disadvantage of the adjacency-list representation is that it doesn't provide a quick way to determine whether a given edge is present in the graph, we actually have to search for $\large v$ in the adjacency list $\large Adj[u]$ .
 
-How to fix the above issue? By using `adjacency matrix representation`:
-#### Adjacency matrix representation
+##### How to fix it?
+- According to Exercise 20.1-8 we can use hash maps instead of adjacency lists, in this way the expected lookup time is $\large O(1)$, but in the worst case it could take $\large O(v)$ .
+
+- We can also sort vertices in each adjacency list at first then we could perform a binary search to find an edge, in this way the worst case lookup time is $\large O(lg V)$ .
+
+- Another way is using `adjacency matrix representation`:
+### Adjacency matrix representation
 
 > The adjacency matrix of a graph requires $\large \Theta(V^2)$ memory.
 
@@ -59,14 +65,16 @@ breadth first search explores the edges of G to discover every vertex that is re
 
 > Breadth-first search also produces a breadth-first tree with root S, that contains all reachable vertices.
 
-> For any vertex v reachable from s , the simple path in the breadth-first tree from s to v corresponds to a shortest path from s to v in G, that is a path containing the smallest number of edges. (The algorithm works on both directed and undirected graphs)
+> For any vertex v reachable from s , the simple path in the breadth-first tree from s to v corresponds to a shortest path from s to v in G, that is a path containing the smallest number of edges.
+
+> **BFS works on both directed or undirected graphs**.
 
 >Breadth-first search is so named because we can think of it as discovering vertices in waves emanating from the source vertex.
 >That is, starting from s , the algorithm first discovers all neighbors of s , which have distance 1. Then it discovers all vertices with distance 2, then all vertices with distance 3, and ... , until it has discovered every vertex reachable from S.
 
 > In order to keep track of the waves of vertices, breadth first search uses a single first-in, first-out queue, containing some vertices at a distance k, possibly followed by some vertices at distance $k + 1$ .
 
-#### How does it work ?
+### How does it work ?
 We define three colors for vertices:
 - White : vertices are initially white by default
 - gray : A vertex that is reachable from s is discovered the first time it is encountered during the search, at which time it becomes gray
@@ -87,7 +95,7 @@ for each vertex we have:
 
 ![[Pasted image 20240813233703.png]]
 ![[Pasted image 20240814131348.png]]
-#### Analyzing running time
+### Analyzing running time
 
 >The operations of enqueuing and dequeuing take O(1) time, and so the total time devoted to queue operations is O(V).
 
@@ -100,7 +108,7 @@ So we can say:
 
 ![[Pasted image 20240903202215.png]]
 
-#### Shortest Paths
+### Shortest Paths
 - **Shortest-path distance** $\large \delta(s,v)$ : 
 	  The minimum number of edges in any path from vertex s to vertex v.
 - **Shortest path** :
@@ -185,7 +193,7 @@ Suppose that vertices $\large v_i$ and $\large v_j$ are enqueued during the exec
 ##### Proof
 From Lemma 20.3 .
 
-#### Theorem 20.5 (correctness of breadth-first search)
+### Theorem 20.5 (correctness of breadth-first search)
 Let $\large G = (V, E)$ be a directed or undirected graph, and suppose that BFS is run on G from a given source vertex $\large s \in V$ . Then during it's execution, BFS discovers every vertex $\large v \in V$ that is reachable from the source $\large s$, and upon termination, $\large v.d = \delta(s,v)$ for all $\large v \in V$. 
 
 >Moreover, for any vertex $\large v \neq s$ that is reachable from $\large s$, one of the shortest paths from $\large s$ to $\large v$ is a shortest path from $\large s$ to $\large v.\pi$ followed by the edge $\large (v.\pi, v)$ .
@@ -214,7 +222,7 @@ Now we can say : $$
 \large v.\pi = u \implies v.d = u.d + 1   $$
 and, shortest path from $\large s$ to $\large v$, is shortest path from $\large s$ to $\large v.\pi$ + edge $\large (v.\pi, v)$ 
 
-#### Breadth-first trees
+### Breadth-first trees
 
 The blue edges show the breadth-first tree built by the BFS procedure as it searches the graph.
 
@@ -247,8 +255,10 @@ Applying Theorem 20.5 inductively yields that every such path is a shortest path
 ---
 ## 20.3   Depth-first search
 
+Depth-first search is another algorithm for searching a graph.
 Depth-first search searches "deeper" in the graph whenever possible.
 
+### How does it work?
 Let's consider vertex $\large v$ as the most recently discovered vertex.
 DFS would deeply explore all the edges of vertex $\large v$ (It also explores all the edges of the connected vertices to vertex $\large v$ until there would be no edge at the end, and then starts to backtrack) .
 Once all of $\large v$ 's edges have been explored, the search **backtracks** to explore edges leaving the vertex from which $\large v$ was discovered.
@@ -262,8 +272,31 @@ This process continues until all vertices that are reachable from the original s
 
 ##### Predecessor subgraph of a DFS search
 - It always includes all vertices
-- It accounts for mutiple sources
+- It accounts for multiple sources
 - It forms a **depth-first forest** comprising several **depth-first trees**
-- The predecessor subgraph is $\large G_\pi = (V, E_\pi)$ wehre : $$\large E_\pi = \{(v.\pi,v) : v\in V \quad and \quad v.\pi \neq NIL \space \}$$
+- The predecessor subgraph is $\large G_\pi = (V, E_\pi)$ where : $$\large E_\pi = \{(v.\pi,v) : v\in V \quad and \quad v.\pi \neq NIL \space \}$$
 - The edges in $\large E_\pi$ are tree edges.
-- 
+
+> Like BFS search, DFS search colors vertices during the search to indicate their state.
+
+`White` : Default initial color
+`gray`: When a vertex is discovered it becomes gray
+`black`: When a vertex's adjacency list has been examined completely
+
+> This coloring technique guarantees that each vertex ends up in exactly on depth-first tree, so that these trees are disjoint.
+
+##### vertex timestamps
+Depth-first search also **timestamps** each vertex. 
+Each vertex like $\large v$ has two timestamps:
+1. `first timestamp` $\large v.d$ : recorded when $\large v$ is first discovered and grayed.
+2. `second timestamp` $\large v.f$ : recorded when the search finishes examining $\large v$ 's adjacency list and blackens $\large v$ .
+
+> The value of timestamps are integers in range: $$\large 1 \leq timestamp \leq 2|V|$$
+> and we always have: $$\large u.d < u.f$$
+
+> **DFS works on both directed or undirected graphs**.
+
+### Depth-first search code
+
+![[Pasted image 20240915022950.png]]
+
