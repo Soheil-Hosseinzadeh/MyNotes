@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "2b2123416024aec0",
+            "id": "08f3b9a49a54125c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,26 +32,19 @@
             }
           },
           {
-            "id": "5eb5414920e60279",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "f3e3ed7e387cc163",
+            "id": "ee9ab734346c14ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
+                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md"
+                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md"
               }
             }
           },
@@ -138,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
+                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
+                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +172,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b5797ee02d36d30e",
+  "active": "ee9ab734346c14ff",
   "lastOpenFiles": [
-    "Algorithm/CLRS/CLRS.md",
     "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "Operating System/Operating System Concepts Silberschatz/Introduction.md",
+    "Algorithm/CLRS/CLRS.md",
+    "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
+    "Operating System/Operating system.md",
+    "Operating System/Operating System Concepts Silberschatz",
+    "ROOT.md",
+    "Operating System",
     "Algorithm/CLRS/pics/Pasted image 20240915022950.png",
     "Algorithm/CLRS/Divide and Conquer.md",
     "Algorithm/CLRS/Greedy Algorithms.md",
@@ -206,7 +205,6 @@
     "Cyber Security/Linux/Linux.md",
     "README.md",
     "Cyber Security/Linux/Lpic 1.md",
-    "ROOT.md",
     "Algorithm/Algorithm.md",
     "Programming languages/Golang/Go generics.md",
     "Programming languages/Golang/basics.md",
@@ -223,10 +221,6 @@
     "Algorithm",
     "Computer Science",
     "Programming languages/Golang/Embedding in Go.md",
-    "Programming languages/Golang/Go Concurrency Patterns.md",
-    "سلام.md",
-    "2024-04-02.md",
-    "Cyber Security/CompTIA A+",
-    "Cyber Security"
+    "Programming languages/Golang/Go Concurrency Patterns.md"
   ]
 }

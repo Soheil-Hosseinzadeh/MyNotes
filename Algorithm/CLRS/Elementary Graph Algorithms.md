@@ -260,7 +260,7 @@ Depth-first search searches "deeper" in the graph whenever possible.
 
 ### How does it work?
 Let's consider vertex $\large v$ as the most recently discovered vertex.
-DFS would deeply explore all the edges of vertex $\large v$ (It also explores all the edges of the connected vertices to vertex $\large v$ until there would be no edge at the end, and then starts to backtrack) .
+DFS would deeply explore all the edges of vertex $\large v$ (It also explores all the edges of the connected vertices to vertex $\large v$ until there would be no edge left at the end, and then starts to backtrack) .
 Once all of $\large v$ 's edges have been explored, the search **backtracks** to explore edges leaving the vertex from which $\large v$ was discovered.
 This process continues until all vertices that are reachable from the original source have been discovered.
 
@@ -299,4 +299,6 @@ Each vertex like $\large v$ has two timestamps:
 ### Depth-first search code
 
 ![[Pasted image 20240915022950.png]]
+
+
 

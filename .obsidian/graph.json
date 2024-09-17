@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 65344
       }
+    },
+    {
+      "query": "path:\"Operating System\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10649855
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 135,
-  "scale": 0.7023319615912206,
+  "scale": 0.7023319615912205,
   "close": true
 }
