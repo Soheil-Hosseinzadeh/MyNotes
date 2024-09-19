@@ -300,5 +300,29 @@ Each vertex like $\large v$ has two timestamps:
 
 ![[Pasted image 20240915022950.png]]
 
+> Lines 5-7 of DFS check each vertex in $\large V$, when a white vertex such as $\large v$ is found, visit it by calling DFS-VISIT.
+
+> Upon every call of DFS-Visit$(G, u)$ in line 7, vertex $\large v$ becomes the root of a new tree in the depth-first forest.
+
+> When DFS returns, every vertex $\large u$ has been assigned a **discovery time** $\large u.d$ and a **finish time** $\large u.f$ .
+
+> In each call DFS-VISIT$(G, u)$:
+> - `Lines 1-3`: increment time value, record discovery time of $\large u$ , paint $\large u$ gray
+> - `Lines 4-7`: examine each vertex $\large v$ adjacent to $\large u$ and recursively visit $\large v$ if it is white
+> - `Lines 8-10`: finally after every edge leaving $\large u$ has been explored, increment time, record finish time $\large u.f$ , and paint u black.
+
+> The results of DFS may depend upon the order of examined vertices in line 5 of DFS and line 4 of DFS-VISIT.
+> These different visitation orders won't cause problems in practice.
 
 
+### Depth-first search running time
+
+>The loops on line 1-3 and lines 5-7 of DFS take $\large \Theta (V)$ time, exclusive of the time to execute the calls to DFS - VISIT .
+
+> To calculate the running time of DFS - VISIT, it is better to see how many times it is called, and then we can calculate the whole running time of all calls to DFS - VISIT .
+
+> The procedure DFS - VISIT is called exactly once for each vertex $\large v \in V$ .
+
+![[Drawing 2024-09-19 20.02.18.excalidraw.svg]]
+
+![[Pasted image 20240920014246.png]]
