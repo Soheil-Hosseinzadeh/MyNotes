@@ -1,5 +1,7 @@
 [
   "highlightr-plugin",
   "colored-text",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "image-converter",
+  "mathlive"
 ]

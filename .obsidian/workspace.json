@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5797ee02d36d30e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efec2d2e2f509f82",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Algorithm/CLRS/pics/Pasted image 20240920014246.png"
-              }
-            }
-          },
-          {
-            "id": "aeb4d22cdce61558",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Algorithm/CLRS/pics/Pasted image 20240920014246.png"
-              }
-            }
-          },
-          {
-            "id": "3980d4e429b187d7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "c0a944fcb9338e21",
             "type": "leaf",
             "state": {
@@ -133,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/CLRS/Elementary Graph Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,10 +139,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b5797ee02d36d30e",
+  "active": "c0a944fcb9338e21",
   "lastOpenFiles": [
-    "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
     "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
+    "Algorithm/CLRS/CLRS.md",
     "Pasted image 20240920014322.png",
     "Algorithm/CLRS/pics/Drawing 2024-09-19 20.02.18.excalidraw.svg",
     "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
@@ -197,7 +152,6 @@
     "Excalidraw/Drawing 2024-09-19 20.00.18.excalidraw.md",
     "Algorithm/CLRS/pics/Pasted image 20240915022950.png",
     "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
-    "Algorithm/CLRS/CLRS.md",
     "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
     "Operating System/Operating system.md",
     "Operating System/Operating System Concepts Silberschatz",
