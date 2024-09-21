@@ -326,4 +326,3 @@ Each vertex like $\large v$ has two timestamps:
 ![[Drawing 2024-09-19 20.02.18.excalidraw.svg]]
 
 ![[Pasted image 20240920014246.png]]
-

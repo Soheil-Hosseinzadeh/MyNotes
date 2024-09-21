@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f6b01e342d511ae0",
+        "id": "f8fa159ee7c484a7",
         "type": "tabs",
         "children": [
           {
-            "id": "c0a944fcb9338e21",
+            "id": "e4c130a5eb48987e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 291.5
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithm/CLRS/Data Structures for Disjoint Sets.md"
+              }
             }
           },
           {
@@ -100,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,11 +147,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c0a944fcb9338e21",
+  "active": "e4c130a5eb48987e",
   "lastOpenFiles": [
-    "Algorithm/CLRS/Elementary Graph Algorithms.md",
-    "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
     "Algorithm/CLRS/CLRS.md",
+    "ROOT.md",
+    "README.md",
+    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921231529745.webp",
+    "Data Structures for Disjoint Sets-20240921230802690.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921230842246.webp",
+    "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
+    "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
     "Pasted image 20240920014322.png",
     "Algorithm/CLRS/pics/Drawing 2024-09-19 20.02.18.excalidraw.svg",
     "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
@@ -151,11 +166,9 @@
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
     "Excalidraw/Drawing 2024-09-19 20.00.18.excalidraw.md",
     "Algorithm/CLRS/pics/Pasted image 20240915022950.png",
-    "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
     "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
     "Operating System/Operating system.md",
     "Operating System/Operating System Concepts Silberschatz",
-    "ROOT.md",
     "Operating System",
     "Algorithm/CLRS/Divide and Conquer.md",
     "Algorithm/CLRS/Greedy Algorithms.md",
@@ -164,15 +177,11 @@
     "Algorithm/CLRS/Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.png",
     "Algorithm/CLRS/pics/Pasted image 20240813233703.png",
-    "Algorithm/CLRS/pics/Pasted image 20240814131348.png",
-    "Algorithm/CLRS/pics/Pasted image 20240903202215.png",
-    "Algorithm/CLRS/pics/Drawing 2024-09-04 00.24.39.excalidraw.svg",
     "Algorithm/CLRS/Excalidraw",
     "Excalidraw",
     "Excalidraw/Drawing 2024-09-03 20.00.19.excalidraw.md",
     "Excalidraw",
     "Cyber Security/Linux/Linux.md",
-    "README.md",
     "Cyber Security/Linux/Lpic 1.md",
     "Algorithm/Algorithm.md",
     "Programming languages/Golang/Go generics.md",
@@ -182,7 +191,6 @@
     "Software Engineering notes.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Software Engineering Session 4.md",
     "Algorithm/CLRS/pics",
     "Algorithm/CLRS",
     "obsidian.css",
