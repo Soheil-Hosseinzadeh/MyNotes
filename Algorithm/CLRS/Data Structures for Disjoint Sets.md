@@ -10,7 +10,9 @@ This chapter explores methods for maintaining a data structure that supports the
 ## 19.1 Disjoint-set operations
 
 A disjoint-set data structure maintains a collection $\large  C = \{S_1, S_2, ..., S_k\}$ 
+
 ### representative of each set
+
 > To identify each set, we choose a **representative** which is some member of the set.
 
 > It doesn't matter which member is chosen, it matters only that if you ask for the representative of a dynamic set twice without modifying the set between the requests, **you get the same answer both times**.
@@ -66,4 +68,65 @@ we have two procedures:
 ## 19.2 Linked-list representation of disjoint sets
 
 In this representation each set is represented by it's own linked list.
+
+**Set object attributes** :
+- `head`: pointing to the first object in the list
+- `tail` : pointing to the last object
+
+**List member object attributes** :
+- A pointer to the next object in the list
+- A pointer back to the set object
+- A set member
+
+> Within each linked list, the objects may appear in any order.
+
+> The representative of each set is the `set member` in the first object in the list.
+
+### disjoint operations in linked list representation
+
+- `MAKE-SET(x)`: 
+  Creates a new linked list whose only object is x . $\large O(1)$ 
+- `FIND-SET(x)`: 
+  Just follow the pointer from $\large x$ back to it's set object and then return the member in the object that head points to.
+- `UNION(g,e)`:
+  Appends the linked list containing $\large e$ to the linked list containing $\large g$ .(and the set object for $\large e$'s list is destroyed) We will discuss more precisely in the following ...
+
+![[Data Structures for Disjoint Sets-20240922220321220.webp|719]]
+
+### A simple implementation of union
+
+`Union(x,y)`: appends $\large y$'s list onto the end of $\large x$'s list. 
+> The **representative** of $\large x$'s list becomes the **representative** of the resulting set.
+
+> To quickly find where to append $\large y$'s list, use the tail pointer for $\large x$'s list.
+
+> The `UNION` operation destroys the set object for $\large y$'s list.
+
+> `UNON` must also update the pointer to the set object for each object originally on $\large y$'s list, which takes **time linear in the length** of $\large y$'s list .
+
+
+##### analyzing the running time by aggregate analysis
+
+We construct a sequence of $\large m$ operations on $\large n$ objects.
+
+Objects : $\Large x_1,x_2, ... , x_n$
+
+> We will execute the sequence of $\large n$ `MAKE-SET` operations followed by $\large n - 1$ `UNON` operations . So we have :
+> $\large m = 2n - 1$
+
+> Then $\large n$ `MAKE-SET` operations take $\large \Theta(n)$ time. 
+
+> Because the $\large i$th `UNION` operation updates $\large i$ objects, the total number of objects updated by all $\large n -1$ `UNION` operations forms an **arithmetic series**
+
+![[Data Structures for Disjoint Sets-20240922234358640.webp]]
+
+> The above condition is in the worst case, so that appending a longer list onto a shorter list is occurred.
+
+$$\Large \sum_{i = 1}^{n - 1} i = \Theta(n^2)$$
+
+
+> The total number of operations is $\large 2n - 1$, and so each operation on average requires $\large \Theta(n)$  time. So, the amortized time of an operation is $\large \Theta(n)$ .
+
+
+### A Weighted-union heuristic
 

@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9fd36c3148389742",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922220321220.webp"
+              }
+            }
           }
         ]
       }
@@ -69,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -149,10 +160,12 @@
   },
   "active": "e4c130a5eb48987e",
   "lastOpenFiles": [
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922234358640.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922220321220.webp",
+    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
     "Algorithm/CLRS/CLRS.md",
     "ROOT.md",
     "README.md",
-    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
     "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921231529745.webp",
     "Data Structures for Disjoint Sets-20240921230802690.webp",
     "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921230842246.webp",
@@ -176,7 +189,6 @@
     "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Algorithm/CLRS/Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.png",
-    "Algorithm/CLRS/pics/Pasted image 20240813233703.png",
     "Algorithm/CLRS/Excalidraw",
     "Excalidraw",
     "Excalidraw/Drawing 2024-09-03 20.00.19.excalidraw.md",
