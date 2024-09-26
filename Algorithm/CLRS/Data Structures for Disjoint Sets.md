@@ -129,4 +129,27 @@ $$\Large \sum_{i = 1}^{n - 1} i = \Theta(n^2)$$
 
 
 ### A Weighted-union heuristic
+In this implementation we do care about the length of lists, and we append the shorter list to the longer one (in UNION procedure) .
 
+##### Theorem 19.1
+Using the linked-list representation of disjoint sets and the weighted-union heuristic, a sequence of $\large m$ `MAKE-SET`, `UNION`, and `FIND-SET` operations, $\large n$ of which are `MAKE-SET` operations, takes $\large O(m + n\space \lg n)$ time.
+
+##### Proof
+Because each `UNION` operation unites two disjoint sets, at most $\large n - 1$ `UNION` operations occur over all.
+
+We have to bound the total time taken by `UNION` operations.
+
+We start by determining, for each object, an upper bound on the number of times the object's pointer back to it's set object is updated, So :
+
+**Consider $\large x$ as an object**
+Each time $\large x$'s pointer is updated, $\large x$ must have started in the smaller set.
+In the $\large i$th $\large x$'s pointer update, the resulting set must have at least $\large 2^i$ members, So we have: $$\large 2^i \leq n \implies i \leq \lg{n} \implies i = \lfloor\lg{n}\rfloor$$
+So each object's pointer is updated at most $\large \lfloor\lg{n}\rfloor$ times over all the `UNION` operations.
+
+> Thus the total time spent updating objects pointers over all `UNION` operations is $\large O(n\lg{n})$ .
+
+> Updating the tail pointers and the list lengths, takes $\large \Theta(1)$ time per `UNION` operation.
+
+> Each `MAKE-SET` and `FIND-SET` operation takes $\large O(1)$ time, and there are $\large O(m)$ of them.
+
+So the total time for the entire sequence is thus $\large O(m + n\lg{n})$ .
