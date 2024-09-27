@@ -20,12 +20,14 @@
             }
           },
           {
-            "id": "9fd36c3148389742",
+            "id": "d6d9d3bdd2b6024d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922220321220.webp"
+                "file": "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -79,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -160,33 +161,33 @@
   },
   "active": "e4c130a5eb48987e",
   "lastOpenFiles": [
-    "Cyber Security/Linux/Lpic 1.md",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922220321220.webp",
-    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922234358640.webp",
     "Algorithm/CLRS/CLRS.md",
+    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927191759864.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927191637839.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927182703777.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921230842246.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927182518724.webp",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922220321220.webp",
+    "Cyber Security/Linux/Lpic 1.md",
+    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922234358640.webp",
     "ROOT.md",
     "README.md",
     "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921231529745.webp",
     "Data Structures for Disjoint Sets-20240921230802690.webp",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921230842246.webp",
     "Algorithm/CLRS/Elementary Graph Algorithms.md",
     "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
     "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
-    "Pasted image 20240920014322.png",
-    "Algorithm/CLRS/pics/Drawing 2024-09-19 20.02.18.excalidraw.svg",
     "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
     "Operating System/Operating System Concepts Silberschatz/Introduction.md",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
     "Excalidraw/Drawing 2024-09-19 20.00.18.excalidraw.md",
-    "Algorithm/CLRS/pics/Pasted image 20240915022950.png",
     "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
     "Operating System/Operating system.md",
     "Operating System/Operating System Concepts Silberschatz",
     "Operating System",
     "Algorithm/CLRS/Divide and Conquer.md",
     "Algorithm/CLRS/Greedy Algorithms.md",
-    "Algorithm/CLRS/pics/Pasted image 20240911211110.png",
     "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Algorithm/CLRS/Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Algorithm/CLRS/Excalidraw",

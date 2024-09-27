@@ -153,3 +153,56 @@ So each object's pointer is updated at most $\large \lfloor\lg{n}\rfloor$ times 
 > Each `MAKE-SET` and `FIND-SET` operation takes $\large O(1)$ time, and there are $\large O(m)$ of them.
 
 So the total time for the entire sequence is thus $\large O(m + n\lg{n})$ .
+
+---
+
+## 19.3 Disjoint-set forests
+
+A **faster** implementation of disjoint sets represent sets by **rooted trees**.
+So we have all the sets as some trees in a **disjoint-set forest**.
+
+### Rooted trees
+Each tree represents one set and each node represent one member.
+
+- `Root`: The root of each tree contains the representative of each set  
+- `node`: each node has a pointer that points to it's parent (**each root is it's own parent**)
+
+![[Data Structures for Disjoint Sets-20240927182703777.webp]]
+
+### Implementation of operations
+`MAKE-SET`: Simply creates a tree with just one node.
+`FIND-SET`: Follows parent pointers until it reaches the root of the tree.
+`UNION`: It' simply causes the root of one tree to point to the root of the other.
+
+> A sequence of $\large n - 1$ `UNION` operations could create a tree that is just a linear chain of $\large n$ nodes. By using two heuristics, however, we can achieve a running time that is almost linear in the total number of $\large m$ operations. **(Which is also better than the linked-list representation)**
+
+##### Heuristics to improve the running time
+
+- `union by rank`:
+  For each node of the tree, we maintain a **rank** which is  an **upper bound on the height of the node**.
+  Union by rank makes the root with smaller rank point to the root with larger rank during a `UNION` operation .
+
+- `path compression`:
+  This heuristic is also quite simple and highly effective.
+  `FIND-SET` operations use it to make each node on the find path point directly to the root .
+  **(Path compression does not change any ranks)**
+
+![[Data Structures for Disjoint Sets-20240927191637839.webp]]
+
+
+##### Pseudocode for disjoint-set forests
+
+![[Data Structures for Disjoint Sets-20240927191759864.webp]]
+
+> Each `FIND-SET` operation leaves all ranks unchanged.
+
+> The `FIND-SET` procedure is a **two-pass method**, as it recurses, it makes one pass up the find-path to find the root, and as the recursion unwinds, it makes a second path back down the find-path to update each node to point directly to the root.
+
+### Effect of the heuristic on the running time
+Combining union by rank and path compression gives a worst-case running time of $\large O(m\alpha(n))$, where $\large \alpha(n)$ is a very slowly growing function (defined in section 4).
+
+In any conceivable application of a disjoint-set data structure, $\large \alpha(n) \leq 4$, and thus, it's running time is as good as linear in $\large m$ for all practical purposes.
+
+---
+
+## 19.4 Analysis of union by rank with path compression *
