@@ -1,5 +1,6 @@
 ##### edition 5 (by default) 
-Otherwise the edition is declared
+Otherwise the edition is explicitly declared
 ***
-## [[Introduction|1. Introduction]]
+## 1. [[Introduction|Introduction]]
+
 
