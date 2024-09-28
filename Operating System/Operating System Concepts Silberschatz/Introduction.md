@@ -62,3 +62,38 @@ The operating system is the most involved with the hardware.
 ### 1.1.3 Defining Operating Systems
 
 Computers are present everywhere like within toasters, cars, ships, spacecraft, homes, and businesses.
+
+##### Moore's Law
+In the 1960s, Moore's Law predicted that the number of transistors on an integrated circuit would double every 18 months, and that prediction has held true.
+
+> Operating systems exist because the offer a reasonable way to solve the problem of creating a usable computing system.
+
+> The **fundamental goal** of computer systems is to execute programs and to make solving user problems easier. Computer hardware is constructed toward this goal.
+
+Application program were developed because working with bare hardware is hard.
+These programs require some common operations like :
+- **Controlling functions** like controlling the I/O devices
+- **Resource allocating functions** and ...
+
+So All these common functions are brought together into one piece of software called : **Operating System**
+
+#### A more common definition
+The operating system is the one program running at all times on the computer (usually called the **kernel**) .
+
+##### Two types of programs
+1. `system programs` :
+   Associated with the OS, but are not necessarily part of the kernel
+2. `application programs`:
+   Include all programs not associated with the operation of the system
+
+##### Middleware
+A set of software frameworks that provide additional services to application developers.
+
+> So, the OS includes 
+> - The always running time **kernel**, 
+> - **Middleware frameworks**(that ease application development)
+> - **System programs**(that aid in managing the system while it is running)
+
+---
+
+## 1.2 Computer-System Organization
