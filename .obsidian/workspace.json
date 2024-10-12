@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f8fa159ee7c484a7",
+        "id": "03301a02ae642302",
         "type": "tabs",
         "children": [
           {
-            "id": "d6d9d3bdd2b6024d",
+            "id": "2f2face228bd7c1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md",
+                "file": "Algorithm/Scheduling with deadlines.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "96f559205426bc86",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md"
               }
             }
           }
@@ -69,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
+    "width": 288.5086555480957,
     "collapsed": true
   },
   "right": {
@@ -97,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md"
+                "file": "Algorithm/Scheduling with deadlines.md"
               }
             }
           },
@@ -107,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md",
+                "file": "Algorithm/Scheduling with deadlines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System/Operating System Concepts Silberschatz/Introduction.md",
+                "file": "Algorithm/Scheduling with deadlines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,54 +158,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6d9d3bdd2b6024d",
+  "active": "2f2face228bd7c1e",
   "lastOpenFiles": [
-    "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
-    "Operating System/Operating System Concepts Silberschatz/Introduction.md",
-    "Operating System/Operating System Concepts Silberschatz/pics/Introduction-20240928174709594.webp",
-    "Operating System/Operating System Concepts Silberschatz/pics",
+    "Algorithm/Scheduling with deadlines.md",
+    "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-06 00.45.34.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md",
+    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw 1.svg",
+    "Algorithm/pics/Pasted Image 20241012190117_075.png",
+    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw.svg",
+    "Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md",
+    "Algorithm/pics/Drawing 2024-10-06 00.45.34.excalidraw.svg",
+    "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
+    "Algorithm/pics/Scheduling with deadlines-20241012174902711.webp",
+    "Excalidraw/Drawing 2024-10-12 17.58.23.excalidraw.md",
+    "Algorithm/pics/Scheduling with deadlines-20241012174600455.webp",
+    "Algorithm/pics/schedule-deadline2-code.excalidraw.svg",
+    "Algorithm/pics",
+    "Algorithm/Algorithm.md",
+    "primArray.excalidraw.svg",
+    "prim-20241005192923216.webp",
+    "prim.md",
     "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
+    "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "primArray.excalidraw 1.md",
+    "picccc.webp",
+    "primArray.excalidraw.md",
+    "Operating System/Operating System Concepts Silberschatz/Introduction.md",
+    "Excalidraw/Drawing 2024-10-05 23.27.31.excalidraw.md",
+    "graphs.excalidrawlib",
+    "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
+    "Operating System/Operating System Concepts Silberschatz/pics",
     "Algorithm/CLRS/CLRS.md",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927191759864.webp",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927191637839.webp",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927182703777.webp",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921230842246.webp",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240927182518724.webp",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922220321220.webp",
     "Cyber Security/Linux/Lpic 1.md",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240922234358640.webp",
     "ROOT.md",
     "README.md",
-    "Algorithm/CLRS/pics/Data Structures for Disjoint Sets-20240921231529745.webp",
-    "Data Structures for Disjoint Sets-20240921230802690.webp",
-    "Algorithm/CLRS/Elementary Graph Algorithms.md",
     "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
-    "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
     "Excalidraw/Drawing 2024-09-19 20.00.18.excalidraw.md",
     "Operating System/Operating system.md",
     "Operating System/Operating System Concepts Silberschatz",
     "Operating System",
-    "Algorithm/CLRS/Divide and Conquer.md",
-    "Algorithm/CLRS/Greedy Algorithms.md",
-    "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
-    "Algorithm/CLRS/Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Algorithm/CLRS/Excalidraw",
     "Excalidraw",
-    "Excalidraw/Drawing 2024-09-03 20.00.19.excalidraw.md",
     "Excalidraw",
-    "Cyber Security/Linux/Linux.md",
-    "Algorithm/Algorithm.md",
-    "Programming languages/Golang/Go generics.md",
-    "Programming languages/Golang/basics.md",
-    "Programming languages/programming languages.md",
-    "Cyber Security/Cyber Security.md",
-    "Software Engineering notes.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Algorithm/CLRS/pics",
-    "Algorithm/CLRS",
-    "obsidian.css",
-    "Algorithm"
+    "Algorithm/CLRS"
   ]
 }
