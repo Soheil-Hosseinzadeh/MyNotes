@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "03301a02ae642302",
+        "id": "0a8784e58c938121",
         "type": "tabs",
         "children": [
           {
@@ -16,20 +16,23 @@
                 "file": "Algorithm/Scheduling with deadlines.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Scheduling with deadlines"
             }
           },
           {
-            "id": "96f559205426bc86",
+            "id": "a65dadd4da3b527d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md"
-              }
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -64,7 +69,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -72,15 +79,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.5086555480957,
-    "collapsed": true
+    "width": 472.5
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -98,7 +106,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -107,8 +117,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Scheduling with deadlines.md"
-              }
+                "file": "Algorithm/CLRS/pics/Pasted image 20240920014246.png"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20240920014246"
             }
           },
           {
@@ -117,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Scheduling with deadlines.md",
+                "file": "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasted image 20240920014246"
             }
           },
           {
@@ -134,10 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Scheduling with deadlines.md",
+                "file": "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20240920014246"
             }
           }
         ]
@@ -158,33 +174,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f2face228bd7c1e",
+  "active": "25a3cb0cbca3117d",
   "lastOpenFiles": [
     "Algorithm/Scheduling with deadlines.md",
-    "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-06 00.45.34.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md",
-    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw 1.svg",
-    "Algorithm/pics/Pasted Image 20241012190117_075.png",
-    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw.svg",
     "Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md",
+    "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
+    "Algorithm/pics/Drawing 2024-10-12 22.03.37.excalidraw.svg",
+    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw 1.svg",
+    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw.svg",
+    "Algorithm/pics/Drawing 2024-10-12 18.37.47.excalidraw.svg",
     "Algorithm/pics/Drawing 2024-10-06 00.45.34.excalidraw.svg",
-    "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md",
     "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
     "Algorithm/pics/Scheduling with deadlines-20241012174902711.webp",
+    "Algorithm/pics/Pasted Image 20241012190117_075.png",
+    "Algorithm/CLRS/pics/algorithmicRecurrencesDefinition.png",
+    "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-06 00.45.34.excalidraw.md",
+    "Algorithm/CLRS/Elementary Graph Algorithms.md",
+    "Excalidraw/Drawing 2024-10-24 12.10.57.excalidraw.md",
     "Excalidraw/Drawing 2024-10-12 17.58.23.excalidraw.md",
     "Algorithm/pics/Scheduling with deadlines-20241012174600455.webp",
-    "Algorithm/pics/schedule-deadline2-code.excalidraw.svg",
     "Algorithm/pics",
     "Algorithm/Algorithm.md",
-    "primArray.excalidraw.svg",
-    "prim-20241005192923216.webp",
     "prim.md",
     "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
-    "Algorithm/CLRS/Elementary Graph Algorithms.md",
     "primArray.excalidraw 1.md",
-    "picccc.webp",
     "primArray.excalidraw.md",
     "Operating System/Operating System Concepts Silberschatz/Introduction.md",
     "Excalidraw/Drawing 2024-10-05 23.27.31.excalidraw.md",
@@ -197,7 +214,6 @@
     "README.md",
     "Cyber Security/CompTIA A+/CompTIA A+ (220-1101).md",
     "Excalidraw/Drawing 2024-09-19 20.00.18.excalidraw.md",
-    "Operating System/Operating system.md",
     "Operating System/Operating System Concepts Silberschatz",
     "Operating System",
     "Algorithm/CLRS/Excalidraw",

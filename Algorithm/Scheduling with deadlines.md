@@ -27,23 +27,8 @@ We have totally **$\large n$ units of time**, our purpose is to schedule the job
 > Note: The deadline array in **initially sorted** in the **decreasing order** of jobs **values** .
 
 ### Implementation
-![[Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md#^group=eRmNR_ZWlY7BGEJvV1ylE|700]]
 
-![[Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md#^group=30VNLIc-TkzPY5hUxKK81|500]]
-
----
-
-![[Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md#^group=9VgWjIoHLKB4YW4qWUriG|500]]
-
----
-![[Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md#^group=l9DYlnHaRTNoqQ5O0lXZd|500]]
-
----
-![[Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md#^group=AuvY2oFayN7NAuM98MPFh|500]]
-
----
-![[Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md#^group=1iWOUEQLI3AyFm43ZPT_A|600]]
-
+![[Drawing 2024-10-12 22.03.37.excalidraw.svg]]
 ### Code
 ![[Drawing 2024-10-12 21.46.39.excalidraw.svg]]
 
@@ -78,27 +63,8 @@ The worst case is when the jobs are in order of **decreasing deadline** in `d[0.
 
 
 ### Implementation
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=ywoPuJQABCccd-hWvqAwN|700]]
 
-
-
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=AGh-3xMZsrWghhldwWmal|700]]
-
-
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=G2qchSwV2qEI09QZJpqVa|700]]
-
-
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=S184jxSe-QKgf0_X7hoX1|700]]
-
-
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=-WbOBQ3-CqftW3JvMKcbV|700]]
-
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=vdlrgYIluJFSlCN8zUkZ4|700]]
-
-
-![[Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md#^group=o4IGbO6PBZALh2E98jFgF|700]]
-
-
+![[Drawing 2024-10-12 18.37.47.excalidraw.svg]]
 ### Code
 ![[Drawing 2024-10-06 00.45.34.excalidraw.svg]]
 ### Running Time
