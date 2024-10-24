@@ -11,7 +11,7 @@
       "query": "file:ROOT",
       "color": {
         "a": 1,
-        "rgb": 7077830
+        "rgb": 16777215
       }
     },
     {
@@ -29,10 +29,17 @@
       }
     },
     {
+      "query": "path:\"Programming languages/Python\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
+    },
+    {
       "query": "path:\"Programming languages\"  ",
       "color": {
         "a": 1,
-        "rgb": 14082125
+        "rgb": 4063173
       }
     },
     {
@@ -60,6 +67,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 135,
-  "scale": 0.7023319615912202,
-  "close": false
+  "scale": 0.70233196159122,
+  "close": true
 }

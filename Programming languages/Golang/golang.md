@@ -1,7 +1,7 @@
 ---
 
 ---
-- [[basics]]
+- [[Programming languages/Golang/basics]]
 - [[Embedding in Go]]
 - [[Go generics]]
 - [[Goroutines]]
