@@ -24,6 +24,7 @@
 #### 19.4 [[Data Structures for Disjoint Sets#19.4 Analysis of union by rank with path compression *|Analysis of union by rank with path compression]]
 
 ---
-
-
-
+## Dynamic Programming
+##### edition 4 page 400
+### Chapter 14 : [[Dynamic Programming]]
+#### 14.5 [[Dynamic Programming#14.5 Optimal Binary Search Trees|Optimal Binary Search Trees]]

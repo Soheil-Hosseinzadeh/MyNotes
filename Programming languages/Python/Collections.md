@@ -147,7 +147,7 @@ for x in thislist:
   print(x)
 ```
 
-**Loop through the index numbers**
+#### **Loop through the index numbers**
 ```python
 thislist = ["apple", "banana", "cherry"]  
 for i in range(len(thislist)):  

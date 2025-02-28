@@ -1,1 +1,2 @@
-[[Operating system concepts]]
+[[Operating System Concepts Silberschatz]]
+[[OS Design and Implementation Tanenbaum]]

@@ -4,49 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "0a8784e58c938121",
+        "id": "dd149d37c0a466f1",
         "type": "tabs",
         "children": [
           {
-            "id": "2f2face228bd7c1e",
+            "id": "f08286281c4fb157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming languages/Python/Python.md",
+                "file": "etc/Review of Discrete Mathematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Review of Discrete Mathematics"
             }
           },
           {
-            "id": "acd24e56453d65b9",
+            "id": "95ae051e9faf4f5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming languages/Python/Collections.md",
+                "file": "etc/Review of Discrete Mathematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collections"
+              "title": "Review of Discrete Mathematics"
             }
           },
           {
-            "id": "148e8f1cfd45ac3c",
+            "id": "6bef69ce3881adae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/CLRS/Dynamic Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dynamic Programming"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -98,13 +103,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 547.5026054382324
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -190,55 +193,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "acd24e56453d65b9",
+  "active": "25a3cb0cbca3117d",
   "lastOpenFiles": [
-    "Programming languages/Golang/Goroutines.md",
-    "Programming languages/Python/Python.md",
-    "Programming languages/Python/Collections.md",
-    "Algorithm/Scheduling with deadlines.md",
-    "Programming languages/programming languages.md",
-    "Programming languages/Python",
-    "Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md",
-    "Algorithm/CLRS/pics/Pasted image 20240920014246.png",
-    "Algorithm/pics/Drawing 2024-10-12 22.03.37.excalidraw.svg",
-    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw 1.svg",
-    "Algorithm/pics/Drawing 2024-10-12 21.46.39.excalidraw.svg",
-    "Algorithm/pics/Drawing 2024-10-12 18.37.47.excalidraw.svg",
-    "Algorithm/pics/Drawing 2024-10-06 00.45.34.excalidraw.svg",
-    "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md",
+    "Algorithm/CLRS/Dynamic Programming.md",
+    "Algorithm/CLRS/Divide and Conquer.md",
+    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
+    "Algorithm/Algorithm.md",
     "Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
-    "Algorithm/pics/Scheduling with deadlines-20241012174902711.webp",
-    "Algorithm/pics/Pasted Image 20241012190117_075.png",
-    "Algorithm/CLRS/pics/algorithmicRecurrencesDefinition.png",
+    "Excalidraw/Drawing 2024-11-25 23.58.44.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-26 01.17.55.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-26 01.55.18.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-26 17.22.34.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-14 18.42.52.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md",
+    "Algorithm/Scheduling with deadlines.md",
+    "etc/Software Engineering Session 4.md",
+    "etc/Theory Exercise Ans 1.md",
     "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
     "Excalidraw/Drawing 2024-10-06 00.45.34.excalidraw.md",
-    "Algorithm/CLRS/Elementary Graph Algorithms.md",
-    "Excalidraw/Drawing 2024-10-24 12.10.57.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-12 17.58.23.excalidraw.md",
-    "Algorithm/pics/Scheduling with deadlines-20241012174600455.webp",
-    "Algorithm/pics",
-    "Algorithm/Algorithm.md",
-    "prim.md",
-    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
-    "primArray.excalidraw 1.md",
-    "primArray.excalidraw.md",
-    "Operating System/Operating System Concepts Silberschatz/Introduction.md",
-    "Excalidraw/Drawing 2024-10-05 23.27.31.excalidraw.md",
-    "graphs.excalidrawlib",
-    "Operating System/Operating System Concepts Silberschatz/Operating system concepts.md",
-    "Operating System/Operating System Concepts Silberschatz/pics",
-    "Algorithm/CLRS/CLRS.md",
-    "Cyber Security/Linux/Lpic 1.md",
+    "Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-26 20.16.49.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-27 00.47.05.excalidraw.md",
+    "etc/Review of Discrete Mathematics.md",
+    "etc/Etcetera.md",
     "ROOT.md",
+    "etc/etcetra",
+    "etc",
+    "Programming languages/Golang/basics.md",
+    "Programming languages/Golang/Go Concurrency Patterns.md",
+    "Algorithm/CLRS/pics/Drawing 2024-11-27 00.47.05.excalidraw.svg",
+    "Algorithm/CLRS/pics/Dynamic Programming-Optimal-BST-CODE.webp",
+    "Algorithm/CLRS/pics/Drawing 2024-11-26 17.22.34.excalidraw.svg",
+    "Algorithm/CLRS/pics/Optimal_BST code.svg",
+    "Pasted Image 20241127005929_897.png",
+    "Pasted Image 20241127004720_579.png",
+    "Dynamic Programming-20241126231907108.webp",
+    "Algorithm/CLRS/pics/Drawing 2024-11-26 20.16.49.excalidraw.svg",
+    "Algorithm/CLRS/pics/Dynamic Programming-20241126224950560.webp",
+    "Algorithm/CLRS/pics/Pasted image 20240903202215.png",
+    "Operating System/Operating SYstem Design and Implementation Tanenbaum/pics",
+    "Operating System/Operating SYstem Design and Implementation Tanenbaum",
+    "Programming languages/Python",
+    "Algorithm/pics",
+    "graphs.excalidrawlib",
+    "Operating System/Operating System Concepts Silberschatz/pics",
     "Operating System/Operating System Concepts Silberschatz",
     "Operating System",
-    "Algorithm/CLRS/Excalidraw",
-    "Excalidraw",
-    "Excalidraw",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Algorithm/CLRS/pics"
+    "Untitled 1.canvas"
   ]
 }
