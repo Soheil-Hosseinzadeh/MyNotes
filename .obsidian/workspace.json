@@ -13,12 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "etc/Review of Discrete Mathematics.md",
+                "file": "AI/Machine Learning/Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Review of Discrete Mathematics"
+              "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "a6502c3cb58284be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "etc/Theory Exercise Ans 1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Theory Exercise Ans 1"
+            }
+          },
+          {
+            "id": "c09786be8c9c1d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/Cyber Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber Security"
+            }
+          },
+          {
+            "id": "301bc193ff926174",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -47,6 +85,20 @@
               },
               "icon": "lucide-file",
               "title": "Dynamic Programming"
+            }
+          },
+          {
+            "id": "730bb21ffe740ff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI"
             }
           }
         ],
@@ -193,9 +245,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "25a3cb0cbca3117d",
+  "active": "c09786be8c9c1d97",
   "lastOpenFiles": [
+    "Cyber Security/cyberSecurityRoadmap.pdf",
+    "Cyber Security/Cyber Security road map.md",
+    "Cyber Security/Cyber Security.md",
+    "Untitled.md",
+    "Cyber Security/cyber-security-roadmap.pdf",
+    "ROOT.md",
+    "cyber-security.pdf",
+    "etc/Etcetera.md",
+    "AI/Machine Learning/Machine learning by Andrew Ng.md",
+    "etc/Review of Discrete Mathematics.md",
+    "AI/Machine Learning/Machine Learning.md",
+    "AI/AI.md",
+    "AI/Machine Learning",
     "Algorithm/CLRS/Dynamic Programming.md",
+    "AI",
     "Algorithm/CLRS/Divide and Conquer.md",
     "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
     "Algorithm/Algorithm.md",
@@ -211,18 +277,8 @@
     "etc/Theory Exercise Ans 1.md",
     "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
     "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-19 20.02.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-06 00.45.34.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-12 18.37.47.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 20.16.49.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-27 00.47.05.excalidraw.md",
-    "etc/Review of Discrete Mathematics.md",
-    "etc/Etcetera.md",
-    "ROOT.md",
     "etc/etcetra",
     "etc",
-    "Programming languages/Golang/basics.md",
-    "Programming languages/Golang/Go Concurrency Patterns.md",
     "Algorithm/CLRS/pics/Drawing 2024-11-27 00.47.05.excalidraw.svg",
     "Algorithm/CLRS/pics/Dynamic Programming-Optimal-BST-CODE.webp",
     "Algorithm/CLRS/pics/Drawing 2024-11-26 17.22.34.excalidraw.svg",
@@ -237,10 +293,6 @@
     "Operating System/Operating SYstem Design and Implementation Tanenbaum",
     "Programming languages/Python",
     "Algorithm/pics",
-    "graphs.excalidrawlib",
-    "Operating System/Operating System Concepts Silberschatz/pics",
-    "Operating System/Operating System Concepts Silberschatz",
-    "Operating System",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
