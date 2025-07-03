@@ -4,105 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dd149d37c0a466f1",
+        "id": "30789275c270a292",
         "type": "tabs",
         "children": [
           {
-            "id": "f08286281c4fb157",
+            "id": "7d626b32b3dcc996",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Machine Learning/Machine Learning.md",
+                "file": "etc/Theory Exercise 2 Answer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
-            }
-          },
-          {
-            "id": "a6502c3cb58284be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "etc/Theory Exercise Ans 1.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Theory Exercise Ans 1"
-            }
-          },
-          {
-            "id": "c09786be8c9c1d97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyber Security/Cyber Security.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cyber Security"
-            }
-          },
-          {
-            "id": "301bc193ff926174",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "95ae051e9faf4f5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "etc/Review of Discrete Mathematics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Review of Discrete Mathematics"
-            }
-          },
-          {
-            "id": "6bef69ce3881adae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/CLRS/Dynamic Programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dynamic Programming"
-            }
-          },
-          {
-            "id": "730bb21ffe740ff6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/AI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI"
+              "title": "Theory Exercise 2 Answer"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 547.5026054382324
+    "width": 336.51103591918945
   },
   "right": {
     "id": "fa9abea4ce4aab71",
@@ -245,54 +164,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c09786be8c9c1d97",
+  "active": "7d626b32b3dcc996",
   "lastOpenFiles": [
-    "Cyber Security/cyberSecurityRoadmap.pdf",
-    "Cyber Security/Cyber Security road map.md",
-    "Cyber Security/Cyber Security.md",
-    "Untitled.md",
-    "Cyber Security/cyber-security-roadmap.pdf",
-    "ROOT.md",
-    "cyber-security.pdf",
-    "etc/Etcetera.md",
-    "AI/Machine Learning/Machine learning by Andrew Ng.md",
-    "etc/Review of Discrete Mathematics.md",
-    "AI/Machine Learning/Machine Learning.md",
-    "AI/AI.md",
-    "AI/Machine Learning",
-    "Algorithm/CLRS/Dynamic Programming.md",
-    "AI",
-    "Algorithm/CLRS/Divide and Conquer.md",
-    "Algorithm/CLRS/Data Structures for Disjoint Sets.md",
-    "Algorithm/Algorithm.md",
-    "Excalidraw/Drawing 2024-10-12 22.03.37.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-25 23.58.44.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 01.17.55.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 01.55.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 17.22.34.excalidraw.md",
-    "Excalidraw/Drawing 2024-12-14 18.42.52.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-12 21.46.39.excalidraw.md",
-    "Algorithm/Scheduling with deadlines.md",
     "etc/Software Engineering Session 4.md",
-    "etc/Theory Exercise Ans 1.md",
-    "Excalidraw/Drawing 2024-09-03 20.04.03.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-04 00.24.39.excalidraw.md",
-    "etc/etcetra",
-    "etc",
-    "Algorithm/CLRS/pics/Drawing 2024-11-27 00.47.05.excalidraw.svg",
-    "Algorithm/CLRS/pics/Dynamic Programming-Optimal-BST-CODE.webp",
-    "Algorithm/CLRS/pics/Drawing 2024-11-26 17.22.34.excalidraw.svg",
-    "Algorithm/CLRS/pics/Optimal_BST code.svg",
-    "Pasted Image 20241127005929_897.png",
-    "Pasted Image 20241127004720_579.png",
-    "Dynamic Programming-20241126231907108.webp",
-    "Algorithm/CLRS/pics/Drawing 2024-11-26 20.16.49.excalidraw.svg",
-    "Algorithm/CLRS/pics/Dynamic Programming-20241126224950560.webp",
-    "Algorithm/CLRS/pics/Pasted image 20240903202215.png",
-    "Operating System/Operating SYstem Design and Implementation Tanenbaum/pics",
-    "Operating System/Operating SYstem Design and Implementation Tanenbaum",
-    "Programming languages/Python",
-    "Algorithm/pics",
+    "etc/Theory Exercise 2.md",
+    "etc/Etcetera.md",
+    "Algorithm/CLRS/Divide and Conquer.md",
+    "AI/Machine Learning/Machine Learning.md",
+    "Programming languages/Golang/Goroutines.md",
+    "Programming languages/programming languages.md",
+    "Algorithm/CLRS/CLRS.md",
+    "Programming languages/Golang/Embedding in Go.md",
+    "AI/AI roadmap.pdf",
+    "AI/ai-data-scientist.pdf",
+    "Cyber Security/Cyber Security.md",
+    "Cyber Security/cyberSecurityRoadmap.pdf",
+    "Cyber Security/cyber-security-roadmap.pdf",
+    "Excalidraw/Pasted Image 20250607222811_796.png",
+    "Excalidraw/Drawing 2025-06-07 20.51.30.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-07 20.51.30.excalidraw.png",
+    "etc/red black trees Lemma 13.1.md",
+    "etc/treePeimayesh.webp",
+    "etc/Theory Exercise 4-20250521011144791.webp",
+    "Pasted Image 20250607212850_800.png",
+    "Excalidraw/Drawing 2025-06-13 05.32.19.excalidraw.md",
+    "Algorithm/CLRS/Introduction_to_Algorithms_4th_Leiserson_Stein_Rivest_Cormen_MIT.pdf.part",
+    "AI/Machine Learning/mml-book.pdf",
+    "etc/Theory Exercise 5.md",
+    "Excalidraw/Drawing 2025-05-30 17.48.30.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-21 00.58.05.excalidraw.md",
+    "Pasted Image 20250530175049_566.png",
+    "Pasted Image 20250530175015_750.png",
+    "Pasted Image 20250530175010_572.png",
+    "Pasted Image 20250530174947_857.png",
+    "etc/Theory Exercise 4.md",
+    "etc/Theory Exercise 4 Ans.md",
+    "etc/tmp.md",
+    "Programming languages/Golang/Go generics.md",
+    "Programming languages/Golang/Go Concurrency Patterns.md",
+    "Programming languages/Golang/basics.md",
+    "etc/تمرین تئوری ۳ (بازگشتی).md",
+    "etc/dfdsf.md",
+    "dfdsf.md",
+    "etc/Theory Exercise 3.md",
+    "boardPic.jpg",
+    "Cyber Security/Cyber Sec Roadmap.pdf",
+    "Cyber Security/Cyber Sec Roadmap.odt",
+    "AI/AI roadmap.odt",
+    "cyber-security.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
