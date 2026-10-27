@@ -1,1 +1,6 @@
-[[Machine learning by Andrew Ng]]
+[[Supervised Learning]]
+[[Unsupervised_Learning]]
+[[Neural_Networks]]
+[[Computer_Vision]]
+[[NLP]]
+[[Contrastive_Learning]]

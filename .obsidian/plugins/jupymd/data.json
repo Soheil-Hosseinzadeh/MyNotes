@@ -1,0 +1,9 @@
+{
+  "autoSync": true,
+  "bidirectionalSync": false,
+  "autoConvertToNotebookOnRun": true,
+  "toolingPython": "/home/friend/py3.14_venv/bin/python",
+  "notebookEditorCommand": "jupyter-lab",
+  "enableCodeBlocks": true,
+  "pythonInterpreter": "/home/friend/py3.13_venv/bin/python"
+}

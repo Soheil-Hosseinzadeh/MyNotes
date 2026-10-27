@@ -1,6 +1,7 @@
 [[Cyber Security]]
 [[programming languages]]
 [[Algorithm]]
+[[Mathematics]]
 [[Operating system]]
 [[Etcetera]]
 [[AI]]
