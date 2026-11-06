@@ -1,3 +1,7 @@
+# Pytorch: learning Basics
+You can find the tutorial in: [Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)
+
+# Pytorch Beginner Series
 Inorder to get familiar with PyTorch at first watch this course from the PyTorch itself: [PyTorch Beginner Series](https://www.youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN)
 
 You can view the PyTorch documents relative to the course in here too: [PyTorch Beginner Series Doc](https://docs.pytorch.org/tutorials/beginner/introyt/introyt_index.html)
@@ -17,4 +21,5 @@ import torch #W for all things PyTorch
 import torch.nn as nn # for toch.nn.Module, the parent bject for PyTorch models
 import torch.nn.functional as F # for the activation function
 ```
+
 

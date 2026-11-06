@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming languages/Python/PyTorch.md",
+                "file": "ROOT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PyTorch"
+              "title": "ROOT"
             }
           }
         ],
@@ -182,8 +182,10 @@
   },
   "active": "b2241a7060977050",
   "lastOpenFiles": [
-    "PyTorch-20261029185319915.webp",
+    "README.md",
+    "ROOT.md",
     "Programming languages/Python/PyTorch.md",
+    "Programming languages/Python/pics/PyTorch-20261029185319915.webp",
     "AI/Machine Learning/5.Natural_Language_Processing/Slides/02-Attention/Attention.pdf",
     "Algorithm/pics/Drawing 2024-10-12 22.03.37.excalidraw.svg",
     "Algorithm/pics/Drawing 2024-09-04 00.24.39.excalidraw.svg",
@@ -215,11 +217,9 @@
     "Excalidraw/Drawing 2025-05-21 00.58.05.excalidraw.md",
     "Excalidraw/Drawing 2024-12-14 18.42.52.excalidraw.md",
     "Excalidraw/Drawing 2024-11-26 17.22.34.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 01.55.18.excalidraw.md",
     "etc/Jazebeh-20261024021521342.webp",
     "etc/Jazebeh-20261024004457399.webp",
     "etc/Jazebeh-20261024004427727.webp",
-    "Mathematics/Linear Algebra/pics/MIT 18.06 Linear Algebra-20261018175226345.webp",
     "AI/Machine Learning/3.Neural_Networks/RNNs/RNNs Basics.pdf",
     "AI/Machine Learning/3.Neural_Networks/RNNs/LSTM.pdf",
     "AI/Machine Learning/3.Neural_Networks/Slides/02-Backpropagation/backpropagation.pdf",
