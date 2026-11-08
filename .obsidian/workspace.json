@@ -25,16 +25,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROOT.md",
+                "file": "AI/Agentic AI/Prompt Engineering/Prompt Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROOT"
+              "title": "Prompt Engineering"
+            }
+          },
+          {
+            "id": "a683ed582cd72651",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Agentic AI/Prompt Engineering/Prompt Engineering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prompt Engineering"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,10 +194,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2241a7060977050",
+  "active": "a683ed582cd72651",
   "lastOpenFiles": [
-    "README.md",
+    "AI/Agentic AI/Prompt Engineering/main.ipynb",
+    "AI/Agentic AI/Prompt Engineering/main.md",
+    "AI/Agentic AI/Prompt Engineering/Prompt Engineering.md",
+    "AI/Agentic AI/Prompt Engineering/main_tmp_jupytext_202.ipynb",
+    "AI/Agentic AI/Prompt Engineering",
     "ROOT.md",
+    "AI/Agentic AI",
+    "README.md",
     "Programming languages/Python/PyTorch.md",
     "Programming languages/Python/pics/PyTorch-20261029185319915.webp",
     "AI/Machine Learning/5.Natural_Language_Processing/Slides/02-Attention/Attention.pdf",
@@ -214,9 +234,6 @@
     "Excalidraw/Drawing 2025-06-13 05.32.19.excalidraw.md",
     "Excalidraw/Drawing 2025-06-07 20.51.30.excalidraw.md",
     "Excalidraw/Drawing 2025-05-30 17.48.30.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-21 00.58.05.excalidraw.md",
-    "Excalidraw/Drawing 2024-12-14 18.42.52.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 17.22.34.excalidraw.md",
     "etc/Jazebeh-20261024021521342.webp",
     "etc/Jazebeh-20261024004457399.webp",
     "etc/Jazebeh-20261024004427727.webp",
@@ -224,10 +241,6 @@
     "AI/Machine Learning/3.Neural_Networks/RNNs/LSTM.pdf",
     "AI/Machine Learning/3.Neural_Networks/Slides/02-Backpropagation/backpropagation.pdf",
     "AI/Machine Learning/3.Neural_Networks/Slides/01-Introduction to Neural Networks/01-Introduction to Neural Networks.pdf",
-    "AI/Machine Learning/2.Unsupervised_Learning/Slides/02-Dimensionality Reduction/02-Dimensionality Reduction.pdf",
-    "Cyber Security/cyber-security-roadmap.pdf",
-    "Mathematics/Linear Algebra/pics",
-    "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

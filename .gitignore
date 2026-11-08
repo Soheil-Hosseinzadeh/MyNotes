@@ -1,4 +1,5 @@
-.venv/
-temp/
-etc/
-Excalidraw/
+/.venv
+/temp
+/etc
+/Excalidraw
+.env
